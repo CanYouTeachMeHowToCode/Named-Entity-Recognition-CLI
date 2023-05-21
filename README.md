@@ -1,4 +1,6 @@
-[![CI](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml)
+[![Continuous Integration](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml)
+## A Named Entity Recognition Command-Line Interface
+
 ## Template for Python projects 
 
 1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
