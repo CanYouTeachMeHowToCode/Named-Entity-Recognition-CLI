@@ -1,4 +1,4 @@
-[![Continuous Integration](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml)
+[![Continuous Integration](https://github.com/CanYouTeachMeHowToCode/Named-Entity-Recognition-CLI/actions/workflows/cicd.yml/badge.svg)](https://github.com/CanYouTeachMeHowToCode/Named-Entity-Recognition-CLI/actions/workflows/cicd.yml)
 ## A Named Entity Recognition Command-Line Interface
 
 ## Template for Python projects 
