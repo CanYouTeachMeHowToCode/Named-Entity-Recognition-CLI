@@ -15,13 +15,14 @@ from transformers import pipeline
 @click.command()
 @click.option("--text")
 def named_entity_recognition(text):
-    print(text)
-    ner = pipeline(task="ner", model="dhtocks/Named-Entity-Recognition")
-    result = ner(text)
-    print(result)
+    ner = pipeline(
+        task="ner", model="NYTK/named-entity-recognition-nerkor-hubert-hungarian"
+    )
+    ner_res = ner(text, aggregation_strategy="simple")
+    final_res = list(map(lambda res: res["word"], ner_res))
     click.echo("Recognition complete!")
-    click.echo("-" * 50)
-    click.echo(result)
+    click.echo("-------------------------------")
+    click.echo(final_res)
 
 
 if __name__ == "__main__":
