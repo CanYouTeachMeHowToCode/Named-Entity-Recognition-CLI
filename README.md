@@ -1,5 +1,5 @@
 [![Continuous Integration](https://github.com/CanYouTeachMeHowToCode/Named-Entity-Recognition-CLI/actions/workflows/cicd.yml/badge.svg)](https://github.com/CanYouTeachMeHowToCode/Named-Entity-Recognition-CLI/actions/workflows/cicd.yml)
-## A Japanese-Simplified Chinese Translation Command-Line Interface
+## A Named-Entity-Recognition Command-Line Interface
 
 ## Template for Python projects 
 
