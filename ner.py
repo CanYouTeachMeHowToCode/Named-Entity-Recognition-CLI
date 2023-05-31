@@ -2,12 +2,14 @@
 Main cli or app entry point
 """
 
-# from mylib.calculator import add
 import click
 import os
 
 os.environ["KMP_DUPLICATE_LIB_OK"] = "True"
-# import pandas as pd
+
+import warnings
+
+warnings.filterwarnings("ignore")
 
 from transformers import pipeline
 
