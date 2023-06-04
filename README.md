@@ -1,27 +1,34 @@
 [![Continuous Integration](https://github.com/CanYouTeachMeHowToCode/Named-Entity-Recognition-CLI/actions/workflows/cicd.yml/badge.svg)](https://github.com/CanYouTeachMeHowToCode/Named-Entity-Recognition-CLI/actions/workflows/cicd.yml)
 ## A Named-Entity-Recognition Command-Line Interface
 
-## Template for Python projects 
+**Individual Project One: Setup Continuous Integration with Github Actions and Github Codespaces for CLI Prediction Tool**
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+In this project, I implemented a [click](https://github.com/pallets/click) Command-Line Interface (CLI) prediction tool that uses a [HuggingFace](https://huggingface.co) pre-trained model to perform the named entity recognition task of the input text. 
 
-Things included are:
+### Setup (Manually)
+- Create a new virtual environment with python version `3.10.11`
+- Activate the virtual environment and run command 
+```
+make all
+```
+, which will perform the entire building process including installing necessary packages/modules, linting, testing, formatting, and deployment.
 
-* `Makefile`
+### Usage
 
-* `Pytest`
+- Run command 
+```
+python ner.py --text [text]
+```
+, where `text` is the input text in string format; for instance, the output recognized named entity of input text `"New York is better than San Francisco."` will be `['New York', 'San Francisco']`.
 
-* `pandas`
+### CI/CD
+Github Actions configured in .github/workflows
 
-* `Pylint`
+### References
+- [HuggingFace](https://huggingface.co)
+- [click](https://github.com/pallets/click)
 
-* `Dockerfile`
 
-* `GitHub copilot`
 
-* `jupyter` and `ipython` 
 
-* A base set of libraries for devops and web
-
-* `githubactions` 
 
